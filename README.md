@@ -180,14 +180,6 @@ If you're preparing for the AP CS A exam, check out the **[AP-CSA-Prep](AP-CSA-P
 - Free response question practice
 - Exam strategies and tips
 
-## 💼 Interview Preparation
-
-The **[Interview-Prep](Interview-Prep/)** directory includes:
-- Common coding patterns
-- Practice problems (easy to medium)
-- Solutions with explanations
-- Interview tips for Java developers
-
 ## 📚 Resources
 
 The **[Resources](Resources/)** directory contains:

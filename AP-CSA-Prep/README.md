@@ -90,17 +90,7 @@ This section helps you prepare specifically for the AP Computer Science A exam. 
 
 ## 📚 Resources
 
-### [Exam Topics Mapping](exam-topics.md)
-Detailed mapping of course content to AP exam units
-
-### [Practice MCQs](practice-mcqs/)
-Multiple choice questions similar to AP exam format
-
-### [Practice FRQs](practice-frqs/)
-Free response questions with scoring guidelines
-
-### [Exam Strategies](exam-strategies.md)
-Tips for both MCQ and FRQ sections
+This section provides comprehensive preparation materials for the AP Computer Science A exam. All concepts taught in the main course modules align directly with AP CSA curriculum requirements.
 
 ## 📊 Exam Format
 
