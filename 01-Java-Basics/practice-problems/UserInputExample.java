@@ -1,52 +1,55 @@
 import java.util.Scanner;
 
 /**
- * UserInputExample - Comprehensive Scanner demonstration
+ * UserInputExample - Comprehensive Scanner demonstration (Practice Problem)
  * 
- * Demonstrates:
- * - Creating and using Scanner object
- * - Reading different data types (String, int, double, boolean)
- * - nextLine() vs next()
- * - Input validation
- * - Closing Scanner properly
+ * INSTRUCTIONS:
+ * Complete this user profile creator by adding code where indicated by TODO comments.
+ * Practice reading different data types using Scanner methods.
  * 
  * @author Introduction to Java Course
  */
 public class UserInputExample {
     public static void main(String[] args) {
-        // Create Scanner object to read from System.in (keyboard)
-        Scanner scanner = new Scanner(System.in);
+        // TODO: Create a Scanner object to read from System.in and store it in a variable called scanner
+        
         
         System.out.println("====================================");
         System.out.println("   User Profile Creator");
         System.out.println("====================================\n");
         
-        // Reading a String (full line)
-        System.out.print("Enter your full name: ");
-        String fullName = scanner.nextLine();  // Reads entire line including spaces
+        // TODO: Prompt the user to enter their full name and read it using nextLine()
+        // Store it in a variable called fullName (type: String)
         
-        // Reading an int
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
         
-        // Reading a double
-        System.out.print("Enter your height in meters (e.g., 1.75): ");
-        double height = scanner.nextDouble();
         
-        // Reading a boolean
-        System.out.print("Are you a student? (true/false): ");
-        boolean isStudent = scanner.nextBoolean();
+        // TODO: Prompt the user to enter their age and read it using nextInt()
+        // Store it in a variable called age (type: int)
         
-        // Clear the newline left by nextBoolean()
-        scanner.nextLine();
         
-        // Reading another String
-        System.out.print("Enter your favorite color: ");
-        String favoriteColor = scanner.nextLine();
         
-        // Reading a single word
-        System.out.print("Enter your city (single word): ");
-        String city = scanner.next();  // Only reads until space
+        // TODO: Prompt the user to enter their height in meters and read it using nextDouble()
+        // Store it in a variable called height (type: double)
+        
+        
+        
+        // TODO: Prompt the user if they are a student and read it using nextBoolean()
+        // Store it in a variable called isStudent (type: boolean)
+        
+        
+        
+        // TODO: Clear the newline character left in the buffer by calling nextLine()
+        
+        
+        // TODO: Prompt the user to enter their favorite color and read it using nextLine()
+        // Store it in a variable called favoriteColor (type: String)
+        
+        
+        
+        // TODO: Prompt the user to enter their city and read it using next()
+        // Store it in a variable called city (type: String)
+        
+        
         
         // Display collected information
         System.out.println("\n====================================");
@@ -59,43 +62,50 @@ public class UserInputExample {
         System.out.println("Favorite Color: " + favoriteColor);
         System.out.println("City: " + city);
         
-        // Calculate and display additional info
         System.out.println("\n----- Additional Information -----");
         
-        // Birth year (approximate)
-        int currentYear = 2024;
-        int birthYear = currentYear - age;
+        // TODO: Calculate the approximate birth year by subtracting age from 2024
+        // Store it in a variable called birthYear
+        
+        
         System.out.println("Approximate birth year: " + birthYear);
         
-        // Height in centimeters
-        double heightInCm = height * 100;
+        // TODO: Convert height to centimeters by multiplying by 100
+        // Store it in a variable called heightInCm
+        
+        
         System.out.printf("Height in cm: %.1f cm\n", heightInCm);
         
-        // Age category
-        String ageCategory;
-        if (age < 13) {
-            ageCategory = "Child";
-        } else if (age < 20) {
-            ageCategory = "Teenager";
-        } else if (age < 65) {
-            ageCategory = "Adult";
-        } else {
-            ageCategory = "Senior";
-        }
+        // TODO: Determine age category using if-else statements:
+        // - If age < 13: "Child"
+        // - Else if age < 20: "Teenager"  
+        // - Else if age < 65: "Adult"
+        // - Else: "Senior"
+        // Store in a variable called ageCategory
+        
+        
+        
+        
+        
+        
+        
+        
+        
         System.out.println("Age category: " + ageCategory);
         
-        // Fun personalized message
-        System.out.println("\n----- Personalized Message -----");
-        System.out.println("Hello, " + fullName + " from " + city + "!");
-        if (isStudent) {
-            System.out.println("Good luck with your studies!");
-        } else {
-            System.out.println("Enjoy your day!");
-        }
-        System.out.println("Your favorite color, " + favoriteColor + ", is a great choice!");
+        // TODO: Print a personalized message: "Hello, [fullName] from [city]!"
         
-        // Important: Always close the Scanner when done
-        scanner.close();
+        
+        
+        // TODO: If isStudent is true, print "Good luck with your studies!"
+        // Otherwise, print "Enjoy your day!"
+        
+        
+        
+        
+        
+        // TODO: Close the Scanner
+        
         
         System.out.println("\n====================================");
         System.out.println("Profile created successfully!");
